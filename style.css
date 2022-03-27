@@ -81,7 +81,8 @@ nav {
 }
 
 .fotka {
-    margin: 25px;  
+    margin: 25px;
+    background-position: center;
 }
 
 .p_class {
@@ -108,7 +109,6 @@ nav {
 .bg1 {
     background-image: url(../img/bg1.jpg.png);
     background-repeat: no-repeat;
-    float:inherit;
     
 }
 
@@ -120,9 +120,43 @@ nav {
     font-weight: bold;
 }
 
-.veb1{
-   margin: 100px 100px;
+.veb1  {
+    margin: 0px 0px 500px 0px;
+    
 }
 
+.veb2 {
+    float: left;
+    padding: 200px 50px  50px;
+    background-image: url(../img/veb-disain.png) , url(../img/macbook.png); 
+    background-repeat: no-repeat;
+    background-position: 30% 60%, 30% 60%;
+    color: #3f495a;    
+}
 
+.veb3 {
+    float: left;
+    padding: 200px 50px  50px;
+    background-image: url(../img/znak.png) , url(../img/razrabotka.png); 
+    background-repeat: no-repeat;
+    background-position: 30% 60%, 30% 60%;
+    color: #3f495a;
+}
 
+.veb4 {
+    float: left;
+    padding: 200px 50px  50px;
+    background-image: url(../img/raketa.png) , url(../img/optitmization.png); 
+    background-repeat: no-repeat;
+    background-position: 30% 60%, 30% 60%;
+    color: #3f495a;
+}
+
+.veb5 {
+    float: left;
+    padding: 200px 50px 50px;
+      background-image: url(../img/marketing.png) , url(../img/gromofon.png); 
+    background-repeat: no-repeat;
+    background-position: 30% 60%, 30% 60%;
+    color: #3f495a;
+}
