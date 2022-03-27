@@ -9,22 +9,22 @@ nav {
     background: #344051;
 
 }
+
 .logo {
     color: #fff;
     font-size: 26px;
     line-height: 60px;
     padding-left: 320px;
     float: left;
-   }
-
-.menu {
-  float: left;  
-  padding-left: 432px;  
-    
 }
 
-.menu li
-{
+.menu {
+    float: left;
+    padding-left: 432px;
+
+}
+
+.menu li {
     float: left;
     line-height: 60px;
     color: #fff;
@@ -32,24 +32,26 @@ nav {
     font-size: 16px;
     text-transform: uppercase;
 }
+
 .main {
     width: 100%;
     height: calc(100% - 60px);
-    background: url(../img/boy.png) 90% 100%/auto 87% no-repeat , url(../img/bg.jpg) center/cover no-repeat; 
+    background: url(../img/boy.png) 90% 100%/auto 87% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
 }
 
-.title_container{
+.title_container {
     float: left;
     margin: 350px 0px 0px 380px;
     color: #2c384a;
     text-align: center;
 }
-.title_container h1{
+
+.title_container h1 {
     font-size: 50px;
     font-weight: bold;
 }
 
-.title_container h4{
+.title_container h4 {
     margin-top: 40px;
     font-size: 22px;
     color: #79818d;
@@ -68,7 +70,59 @@ nav {
 }
 
 .infor {
-    font-size: 25px;
+    float: left;
+    width: 100%;
+    font-size: 30px;
     text-transform: uppercase;
     text-align: center;
+    padding: 100px;
+    color: #263244;
+    font-weight: 300;
 }
+
+.fotka {
+    margin: 25px;  
+}
+
+.p_class {
+    text-align: center;
+    color: #737984;
+     line-height: 20px;
+}
+
+.knopka_text {
+    margin: 35px 0px 0px 38px;
+    color: #2c384a;
+    text-align: center;
+    }
+.knopka_text input {
+    height: 40px;
+    text-align: center;
+    border: 3px solid #6d7682;
+    background: none;
+    border-radius: 7px;
+    color: #6d7682;
+    font-size: 13px;
+}
+
+.bg1 {
+    background-image: url(../img/bg1.jpg.png);
+    background-repeat: no-repeat;
+    float:inherit;
+    
+}
+
+.h3css {
+    margin-top: 65px;
+    text-align: center;
+    color:#263244;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.veb1{
+   margin: 100px 100px;
+}
+
+
+
