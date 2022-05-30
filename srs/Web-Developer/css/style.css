@@ -1,0 +1,48 @@
+/**float left,
+width и text-align
+**/
+
+.main {
+    background-image: url(../imges/bg1.jpg);
+    height: 520px;
+    width: 100%;
+}
+
+.zagolovok {
+    text-align: center;
+    padding-top: 50px;
+    display: block;
+}
+
+.obect_1 {
+    display: block;
+    padding-left: 100px;
+    padding-top: 100px;
+    float: left;
+    padding-right: 150px;
+    text-align: center;
+}
+
+.obect_2 {
+    display: block;
+    padding-top: 100px;
+    float: left;
+    padding-right: 150px;
+    text-align: center;
+}
+
+.obect_3 {
+    display: block;
+    padding-top: 100px;
+    float: left;
+    padding-right: 150px;
+    text-align: center;
+}
+
+.obect_4 {
+    display: block;
+    padding-top: 100px;
+    float: left;
+    padding-right: 150px;
+    text-align: center;
+}
