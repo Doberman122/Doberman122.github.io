@@ -1,48 +1,93 @@
-/**float left,
-width и text-align
-**/
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background: #344051;
+}
+
+.logo {
+    color: #fff;
+    font-size: 26px;
+    line-height: 60px;
+    padding-left: 320px;
+    float: left;
+}
+
+.menu {
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li {
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    padding-left: 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
 
 .main {
-    background-image: url(../imges/bg1.jpg);
-    height: 520px;
     width: 100%;
+    height: calc(100% - 60px);
+    background: url(../imges/boy.png) 90% 100%/auto 87% no-repeat, url(../imges/bg.png) center/cover no-repeat;
 }
 
-.zagolovok {
-    text-align: center;
-    padding-top: 50px;
-    display: block;
-}
-
-.obect_1 {
-    display: block;
-    padding-left: 100px;
-    padding-top: 100px;
+.title_container {
     float: left;
-    padding-right: 150px;
+    margin: 350px 0px 0px 380px;
+    color: #2c384a;
     text-align: center;
 }
 
-.obect_2 {
-    display: block;
+.title_container h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.title_container h4 {
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title_container button {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 50px 14px 14px 0px;
+}
+
+.About_me {
     padding-top: 100px;
-    float: left;
-    padding-right: 150px;
     text-align: center;
 }
 
-.obect_3 {
-    display: block;
-    padding-top: 100px;
-    float: left;
-    padding-right: 150px;
-    text-align: center;
+.About_me h3 {
+    padding-bottom: 50px;
+    font-size: 20px;
+    color: #263244;
 }
 
-.obect_4 {
-    display: block;
-    padding-top: 100px;
-    float: left;
-    padding-right: 150px;
+.zg {
+    padding-bottom: 30px;
+}
+
+.text_About {
+    text-align: center;
+    padding-top: 20px;
+    color: #3f495a;
+}
+
+.button_downolad {
+    padding-top: 30px;
     text-align: center;
 }
